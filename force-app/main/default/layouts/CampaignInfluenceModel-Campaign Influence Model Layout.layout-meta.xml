@@ -7,14 +7,6 @@
         <label>Detail Information</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>IsActive</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>RecordPreference</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Required</behavior>
                 <field>MasterLabel</field>
             </layoutItems>
@@ -26,11 +18,19 @@
                 <behavior>Edit</behavior>
                 <field>IsModelLocked</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>RecordPreference</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>DeveloperName</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>IsActive</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -46,10 +46,6 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
-    <miniLayout>
-        <fields>IsActive</fields>
-        <fields>RecordPreference</fields>
-    </miniLayout>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>

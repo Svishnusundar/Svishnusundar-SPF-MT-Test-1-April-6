@@ -4,5 +4,6 @@
     <label>SalesWorkspacePSG</label>
     <permissionSets>force__PipelineInspectionUser</permissionSets>
     <permissionSets>force__SalesWorkspace</permissionSets>
+    <permissionSets>force__TableauNextLimitedViewer</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

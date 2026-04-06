@@ -3,7 +3,7 @@
     <isActive>true</isActive>
     <isDefaultModel>true</isDefaultModel>
     <isModelLocked>true</isModelLocked>
-    <modelDescription>Primary Campaign gets 100% of the revenue share</modelDescription>
-    <name>Salesforce Model</name>
+    <modelDescription>Primary campaign gets 100% of the revenue share</modelDescription>
+    <name>Primary Campaign Source Model</name>
     <recordPreference>AllRecords</recordPreference>
 </CampaignInfluenceModel>

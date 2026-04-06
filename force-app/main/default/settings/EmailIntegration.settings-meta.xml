@@ -5,7 +5,7 @@
     <enableContactAndEventSync>false</enableContactAndEventSync>
     <enableContextualEverywhere>true</enableContextualEverywhere>
     <enableEmailTrackingInMobile>true</enableEmailTrackingInMobile>
-    <enableEngageForOutlook>false</enableEngageForOutlook>
+    <enableEngageForOutlook>true</enableEngageForOutlook>
     <enableExtensionHostUnrestricted>true</enableExtensionHostUnrestricted>
     <enableGmailIntegration>true</enableGmailIntegration>
     <enableInboxInternalEmailTracking>false</enableInboxInternalEmailTracking>

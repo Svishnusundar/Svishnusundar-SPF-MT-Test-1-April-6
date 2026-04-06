@@ -17,6 +17,11 @@
             <table>Contact</table>
         </columns>
         <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>IsPersonAccount</field>
+            <table>Contact</table>
+        </columns>
+        <columns>
             <checkedByDefault>true</checkedByDefault>
             <field>Name</field>
             <table>Contact</table>
@@ -38,12 +43,7 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>MiddleName</field>
-            <table>Contact</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Suffix</field>
+            <field>RecordType</field>
             <table>Contact</table>
         </columns>
         <columns>
@@ -208,6 +208,11 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <field>CurrencyIsoCode</field>
+            <table>Contact</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
             <field>Owner</field>
             <table>Contact</table>
         </columns>
@@ -224,6 +229,11 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>DoNotCall</field>
+            <table>Contact</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CanAllowPortalSelfReg</field>
             <table>Contact</table>
         </columns>
         <columns>
@@ -283,12 +293,47 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Pronouns</field>
+            <field>CleanStatus</field>
             <table>Contact</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>GenderIdentity</field>
+            <field>Individual</field>
+            <table>Contact</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>EDY_ORGCUSTOM__DB__c</field>
+            <table>Contact</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>EDY_ORGCUSTOM__Old_Title__c</field>
+            <table>Contact</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>External_ID__c</field>
+            <table>Contact</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>SDO_PA_Inclusive_Preferred_Name__c</field>
+            <table>Contact</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>SDO_PA_Inclusive_Pronouns__c</field>
+            <table>Contact</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>SDO_PA_Inclusive_TDD_TTY__c</field>
+            <table>Contact</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>SDO_PA_Preferred_Contact_Channel__c</field>
             <table>Contact</table>
         </columns>
         <masterLabel>Contacts</masterLabel>
